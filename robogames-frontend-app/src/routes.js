@@ -41,6 +41,8 @@ import Rules from "views/Rules";
 import AuthCallback from "components/KeyCloak/KeyCloak";
 import { t } from "translations/translate";
 
+import Generate from "views/Generate.js";
+
 
 var routes = [
   {
@@ -232,6 +234,14 @@ var routes = [
     path: "/auth/callback",
     name: "Auth Callback",
     component: <AuthCallback />,
+    layout: "/admin",
+  },
+  {
+    path: "/generate",
+    name: t("generate"),  // prepozíčny text z translations
+    rtlName: "",
+    icon: "tim-icons icon-puzzle-10",
+    component: <Generate />,
     layout: "/admin",
   }
 

@@ -398,6 +398,8 @@
     "discCreateFail":"Failed to create discipline.",
     "discAdd": "Add discipline",
     "discEdit": "Edit discipline",
+    "printBracket": "Print bracket",
+    "printGroup": "Print group",
     "discAddNew": "Add new discipline",
     "discName": "Discipline name",
     "descript": "Description",
@@ -518,5 +520,7 @@
     "err":"Error",
 
     "loggingIn":"Login in progress...",
-    "loginFailed":"Login failed."
+    "loginFailed":"Login failed.",
+    "generate": "Generate",
+    "saveSchedule": "Save schedule"
 }
